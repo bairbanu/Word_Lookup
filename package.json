@@ -2,7 +2,6 @@
   "name": "One_Word_Dictionary",
   "version": "1.0.0",
   "description": "Web application with Node.js backend and React / Redux / Redux-Saga frontend to display definition of an English word.",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,11 +22,16 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.9",
+    "nodemon": "^1.14.12",
     "react": "^16.2.0",
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
     "redux-saga": "^0.16.0",
     "style-loader": "^0.20.1",
     "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
   }
 }
